@@ -6,13 +6,13 @@ namespace WinFormsFramework
 {
     public class ScanPane
     {
-        private ComboBox _scans;
+        private ComboBox _scanOptions;
         private Button _startScan;
         private ProgressBar _scanProgress; 
         public void StartSimpleScan()
         {
-            _scans = App.MainWindow.Get<ComboBox>(SearchCriteria.ByAutomationId("3079"));
-            _scans.Select("Simple scan");
+            _scanOptions = App.MainWindow.Get<ComboBox>(SearchCriteria.ByAutomationId("3079"));
+            _scanOptions.Select("Simple scan");
             _startScan = App.MainWindow.Get<Button>(SearchCriteria.ByText("Start"));
             _startScan.Click();
         }

@@ -49,8 +49,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Browser.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Footer.cs" />
+    <Compile Include="Pages\LoginPage.cs" />
+    <Compile Include="Pages\Pages.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pages\ScanPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
